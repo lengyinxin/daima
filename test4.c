@@ -1,8 +1,16 @@
 #include <stdio.h>
-    int sb[10] = {1 2 3 4 5 6 7 8 9 10};
-    int i = 0;
-    while(i < 10)
-    {
-        printf("%d",sb[i]);
-        i++;
-    }
+int Add(int x,int y)
+{
+    int z = 0;
+    z = x + y;
+    return z;
+}
+int main()
+{
+    int a = 0;
+    int b = 0;
+    scanf("%d%d",&a,&b);
+    int c = Add(a,b);
+    printf("%d",c);
+    return 0;
+}
