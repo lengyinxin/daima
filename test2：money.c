@@ -2,12 +2,12 @@
 int main()
 {
     int money;
-    while(money < 1000)
+    while(money < 10000000)
     {
         printf("fw/ your money:%d\n", money);
         money++;
     }
-    if (money == 1000)
+    if (money == 10000000)
     {
         printf("nb!");
     }
